@@ -1,0 +1,122 @@
+body {
+    overflow-x: auto;
+    overflow-y: auto;
+    min-width: 1024px;
+}
+
+div.background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("bg_lowres.jpg");
+    background-size:cover;
+    -webkit-filter: blur(6px); 
+    filter: blur(6px);  
+}
+
+div.overlay {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    opacity: 0.3;
+    filter: alpha(opacity=30);
+}
+
+div.logo {
+    position:relative;
+    padding-top: 115px;
+    text-align: center;
+}
+
+div.tagline {
+    position:relative;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Oswald Light'; 
+    font-weight: lighter;
+    font-style: normal;
+    color:#FFFFFF;
+}
+
+div.login {
+    position: relative;
+    text-align: center;
+}
+
+input.loginbox {
+    position: relative;
+    height: 50px;
+    width: 300px;
+    border-color: #FFFFFF;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    background: rgba(255,255,255,0.2);
+    font-family: 'Open Sans';
+    font-size: 20px;
+    font-weight: lighter;
+    color: #D8D8D8;
+}
+
+input.loginbox:focus {
+    color:#FFFFFF;
+    font-weight: normal;
+    outline: none;
+}
+
+input.loginButton {
+    font-family: 'Open Sans';
+    font-size: 22px;
+    color: #FFFFFF;
+    text-align: center;
+    background-color:#FFCC00;
+    border-radius: 25px;
+    position: relative;
+    top: 50px;
+    width: 250px;
+    height: 50px;
+    border: 0px;
+}
+
+div.loginOptions {
+    position: relative;
+    top: 50px;
+    text-align: center;
+}
+
+#forgotPwd {
+     color: #FFFFFF;
+     font-weight: lighter;
+     text-align: center;
+     display: inline-block;
+     vertical-align: top;
+     font-size: 16px;
+     font-family: "Open Sans";
+}
+
+#register {
+    color: #FFFFFF;
+    font-weight:normal;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+    font-family: "Open Sans";
+}
+
+footer.copyright {
+    position:fixed;
+    /*top: 65px;*/
+    bottom: 20px; 
+    width: 100%;
+    color: #D8D8D8;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: lighter;
+}
